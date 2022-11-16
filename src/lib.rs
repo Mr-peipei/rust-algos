@@ -1,5 +1,5 @@
-mod array_sum;
-mod big_array_sum;
+mod math;
+mod sort;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right

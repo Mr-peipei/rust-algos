@@ -1,6 +1,4 @@
 /*
- * Complete the 'diagonalDifference' function below.
- *
  * The function is expected to return an INTEGER.
  * The function accepts 2D_INTEGER_ARRAY arr as parameter.
  * Given a square matrix, calculate the absolute difference between the sums of its diagonals.
@@ -10,7 +8,7 @@
  * 9 8 9
  *  The left-to-right diagonal = . The right to left diagonal = . Their absolute difference is .
  */
-pub fn diagonalDifference(arr: &[Vec<i32>]) -> i32 {
+pub fn diagonal_difference(arr: &[Vec<i32>]) -> i32 {
     let mut left = 0;
     let mut right = 0;
     for i in 0..arr.len() {

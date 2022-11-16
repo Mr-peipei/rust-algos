@@ -1,4 +1,4 @@
-fn simple_array_sum(ar: &[i32]) -> i32 {
+pub fn simple_array_sum(ar: &[i32]) -> i32 {
     let sum: i32 = ar.iter().sum();
     sum
 }
