@@ -21,3 +21,17 @@ pub fn diagonal_difference(arr: &[Vec<i32>]) -> i32 {
     }
     sum
 }
+
+#[cfg(test)]
+mod tests {
+
+    use super::*;
+
+    #[test]
+    fn basic_big_sum() {
+        let arr = [vec![1, 2, 3], vec![4, 5, 6], vec![7, 8, 9]];
+        assert_eq!(diagonal_difference(&arr), 0);
+        let arr2 = [vec![1, 0, 1], vec![0, 1, 0], vec![1, 0, 0]];
+        assert_eq!(diagonal_difference(&arr2), 1);
+    }
+}
