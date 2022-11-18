@@ -1,5 +1,5 @@
-mod math;
-mod sort;
+pub mod math;
+pub mod sort;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
